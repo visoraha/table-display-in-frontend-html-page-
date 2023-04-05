@@ -19,5 +19,6 @@ from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('table/',table,name='table')
+    path('table/',table,name='table'),
+    path('display_student/',display_student,name='display_student'),
 ]
